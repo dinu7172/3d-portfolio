@@ -25,14 +25,16 @@ $PROJECT_ROOT
 
 MIT License.
 
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
+<!-- You can create your own homepage for free without notifying me by forking this project under the following conditions:
 
 - Add a link to [my homepage](https://www.craftz.dog/)
 - Do not use the 3d voxel dog
 
 Check out [LICENSE](./LICENSE) for more detail.
 
----
+--- -->
+This website is built based on the <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama website</a>.
+Sorry Right <a href='https://www.craftz.dog/' target='_blank'>Takuya Matsuyama</a> I am using the dog voxel but I will change may be in this week only and for that have patience or if you want I can remove now also just contact me on dineshmourya7172@gmail.com
 
 Looking for a Markdown note-taking app? Check out my app called Inkdrop:
 
