@@ -3,16 +3,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import coupono from '../public/images/works/coupono.jpg'
+import mora from '../public/images/works/mora.jpg'
+import photoAi from '../public/images/works/photo-ai.jpg'
+import productraters from '../public/images/works/productraters.jpg'
+import promptify from '../public/images/works/promptify.jpg'
+import alrigh from '../public/images/works/alrigh.jpg'
+import ecommerce from '../public/images/works/ecommerce.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -23,37 +20,35 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem id="photoai" title="Photo Ai" thumbnail={photoAi}>
+            Generate the images trained with your own photos
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="promptify"
+            title="Promptify"
+            thumbnail={promptify}
           >
-            Music recommendation app for iOS
+            A web app that help you to create prompts and share them for AI models
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="morafootwear"
+            title="Mora Footwear"
+            thumbnail={mora}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Business website for a footwear company
           </WorkGridItem>
         </Section>
-        <Section delay={0.1}>
+        {/* <Section delay={0.1}>
           <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
             An app that suggests ramen(noodle) shops based on a given photo of
             the ramen you want to eat
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
 
       <Section delay={0.2}>
@@ -66,23 +61,23 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">
-            A website of the elite app development and contracting agency based
-            in Austria
+          <WorkGridItem id="productraters" thumbnail={productraters} title="ProductRaters">
+            A web app that help you find the best products, so you can shop with confidence and make quick & smart buying decisions!
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            id="coupono"
+            thumbnail={coupono}
+            title="Coupono"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            A web app to help you save more, shop smarter, and enjoy the best deals with ease!
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          {/* alrigh.com is coupono sharing site for users in USA */}
+          <WorkGridItem id="alrigh" thumbnail={alrigh} title="Alrigh">
+            A web app that helps you find the best coupons, so you can save money while shopping!
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -97,25 +92,25 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="ecommerce" thumbnail={ecommerce} title="Ecommerce Site">
+            A simple e-commerce site built with Django and sqlite3
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
+        {/* <Section delay={0.5}>
           <WorkGridItem
-            id="freedbtagger"
+            id="shoe-auction"
             thumbnail={thumbFreeDBTagger}
-            title="freeDBTagger"
+            title="Shoe Auction"
           >
-            Automatic audio file tagging tool using FreeDB for Windows
+            A simple shoe auction site built with Django and sqlite3
           </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
+        </Section> */}
+        {/* <Section delay={0.6}>
           <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
             P2P private file sharing tool with MSN Messenger integration for
             Windows
           </WorkGridItem>
-        </Section>
+        </Section> */}
       </SimpleGrid>
     </Container>
   </Layout>
