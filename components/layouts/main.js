@@ -15,20 +15,20 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Dinesh Maurya's homepage" />
-        <meta name="author" content="Dinesh Maurya" />
-        <meta name="author" content="Dinesh Maurya" />
+        <meta name="description" content="Dinesh Mourya's homepage" />
+        <meta name="author" content="Dinesh Mourya" />
+        <meta name="author" content="Dinesh Mourya" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Dinesh Maurya" />
+        <meta name="twitter:title" content="Dinesh Mourya" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dinu7172" />
         <meta name="twitter:creator" content="@dinu7172" />
-        <meta property="og:site_name" content="Dinesh Maurya" />
-        <meta name="og:title" content="Dinesh Maurya" />
+        <meta property="og:site_name" content="Dinesh Mourya" />
+        <meta name="og:title" content="Dinesh Mourya" />
         <meta property="og:type" content="website" />
 
-        <title>Dinesh Maurya - Homepage</title>
+        <title>Dinesh Mourya - Homepage</title>
       </Head>
 
       <NavBar path={router.asPath} />

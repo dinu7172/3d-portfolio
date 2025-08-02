@@ -1,7 +1,7 @@
 {
   "name": "dinesh-portfolio",
   "version": "1.0.0",
-  "description": "Dinesh Maurya",
+  "description": "Dinesh Mourya",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Dinesh Maurya",
+  "author": "Dinesh Mourya",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",

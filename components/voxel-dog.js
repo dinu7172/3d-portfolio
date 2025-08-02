@@ -12,7 +12,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = '/computer_desk.glb'
+  const urlDogGLB = '/computer_desk_04.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
@@ -29,7 +29,7 @@ const VoxelDog = () => {
   useEffect(() => {
     const { current: container } = refContainer
     if (container) {
-      const scW = container.clientWidth
+      const scW = container.clientWidth + 6.5
       const scH = container.clientHeight
 
       const renderer = new THREE.WebGLRenderer({
@@ -52,11 +52,11 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.005 + 4.8
+      const scale = scH * 0.002 + 2.5
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
-        scale,
+        -0.01,
         -scale,
         0.01,
         50000

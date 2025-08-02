@@ -35,7 +35,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Dinesh Maurya
+            Dinesh Mourya
           </Heading>
           <p>Tech Enthusiast ( Developer / Engineer )</p>
         </Box>
@@ -131,11 +131,11 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          In free time
         </Heading>
         <Paragraph>
-          Business, Music, Finance,{' '}
-          Cricket, Machine Learning
+          Business, Finance,{' '}
+          Learning, Cricket, Music
         </Paragraph>
       </Section>
 
@@ -156,13 +156,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/dinu7172" target="_blank">
+            <Link href="https://twitter.com/dinesh_v19" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @dinu7172
+                @dinesh_v19
               </Button>
             </Link>
           </ListItem>

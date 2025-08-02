@@ -1,4 +1,4 @@
-# Dinesh Maurya's Homepage
+# Dinesh Mourya's Homepage
 
 ## Stack
 
