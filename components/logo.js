@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
 import { FaMoneyCheckAlt } from "react-icons/fa";
 import styled from '@emotion/styled'
 
